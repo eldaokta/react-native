@@ -15,6 +15,9 @@ public class Heroes implements HitAble, Offensive{
         this.baseDamage = baseDamage;
     }
 
+    public Heroes(Integer hp, Integer mana, Integer damage) {
+    }
+
 //    public void castSkill(Heroes heroes){
 //        skill1.castSkill(heroes);
 //        skill1.decreaseMana(this);
