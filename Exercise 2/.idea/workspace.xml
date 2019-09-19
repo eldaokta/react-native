@@ -2,56 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47cff0a7-9b03-4482-acdc-222d2d8f04eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/TugasSatu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/out/production/TugasSatu/META-INF/TugasSatu.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/out/production/TugasSatu/com/enigama/belajarjava/basic/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/out/production/TugasSatu/com/enigama/belajarjava/basic/cobaMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/src/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 1/src/com/enigama/belajarjava/basic/cobaMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 3/src/MainBuffered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 3/src/MainReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 3/src/MainSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 3/src/MainWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 3/src/com/enigma/model/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 4/src/com/enigma/model/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/Exercise 6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/model/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 1/LatihanSatu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 1/LatihanSatu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 6/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/model/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 7/src/com/enigma/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enigma/tugasdua/Mobil.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enigma/tugasdua/Mobil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 3/src/com/enigma/model/Heroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/src/com/enigma/model/Heroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/src/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/src/com/enigma/model/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/src/com/enigma/model/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/src/com/enigma/model/Programmer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/src/com/enigma/model/Programmer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tugas03/tugas03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 6/Exercise 6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 6/Exercise 6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 6/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 6/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/model/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/model/Files.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +37,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise 03" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
