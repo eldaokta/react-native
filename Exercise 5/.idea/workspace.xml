@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9489ae08-8205-41ea-a752-a9a420bc5a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/MainRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/MainWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/service/PersonGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 7/src/com/enigma/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 7/src/com/enigma/model/ParkingArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 7/test/com/enigma/model/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise 7/test/com/enigma/model/ParkingAreaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 6/Exercise 6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 6/Exercise 6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 6/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 6/src/com/enigma/model/File.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
