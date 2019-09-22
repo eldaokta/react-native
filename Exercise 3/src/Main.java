@@ -1,51 +1,19 @@
-import com.enigma.model.Circle;
+import com.enigma.model.Employee;
+import com.enigma.model.Programmer;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        List<Circle> circles = new ArrayList<>();
-        circles.add(new Circle(5));
-        circles.add(new Circle(2));
-        circles.add(new Circle(1));
-        circles.add(new Circle(3));
-
-//        System.out.println(circles.size());//ukurannya
-//        Circle circle = circles.get(0);//pada ngambil objek ke index berapa masuk ke circle
-//        System.out.println(circles.indexOf(circle));//index ke circle diatas yg indexnya
-//        System.out.println(circles.lastIndexOf(circle));//udah ada method equals, dari circle index terakhir dari index yg punya 1 yg sama adalah
-//        System.out.println(circles.contains(new Circle(5)));
-
-//        System.out.println(circles.size());
-//        for (int i = 0; i < circles.size(); i++){
-//            Circle circle1 = circles.get(i);
-//            System.out.println(circle1.print());
-////            System.out.println(circle.contains(new Circle(5)));//compare object dengan object dengan value yg dicarinya
-//        }
-        Circle ygKuCari = new Circle(2);
-        System.out.println("Yang ku cari:"+ygKuCari);
-
-        Iterator<Circle> iterator = circles.iterator();
-
-        while(iterator.hasNext()){
-            Circle circle = iterator.next();
-            System.out.println(circle.getR());
-            if (circle.equals(ygKuCari)){
-                iterator.remove();
-            }
-
-        }
-        System.out.println("=================");
-        System.out.println(circles.size());
-        System.out.println("=================");
-        iterator = circles.iterator();
-        while (iterator.hasNext()){
-            Circle circle = iterator.next();
-            System.out.println(circle.getR());
-        }
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Masukan Jumlah Gaji Pokok : ");
+        Integer gaji = Integer.parseInt(reader.readLine());
+        System.out.print("Masukkan Jumlah Bonus : ");
+        Integer bonus = Integer.parseInt(reader.readLine());
+        Programmer programmer = new Programmer(gaji, bonus);
+        System.out.print(("Jumlah Gaji yang diterima: ")+programmer.getnetSalary());
 
     }
 }

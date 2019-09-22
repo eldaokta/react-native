@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69176289-400b-453b-bf7f-dca4bb0fff34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d7e4922d-1a85-4d3e-bcbd-82b16bf470f1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +15,9 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1QuiGswzBofjHJ4NNRCI7OrrsWf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1R9G4alvxsccT91XuVRBQiPiJE6" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise 3" />
+    <property name="last_opened_file_path" value="E:/Academy/Exercise 3" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,30 +31,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Heroes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69176289-400b-453b-bf7f-dca4bb0fff34" name="Default Changelist" comment="" />
-      <created>1568626789817</created>
+      <changelist id="d7e4922d-1a85-4d3e-bcbd-82b16bf470f1" name="Default Changelist" comment="" />
+      <created>1569071707950</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568626789817</updated>
+      <updated>1569071707950</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
