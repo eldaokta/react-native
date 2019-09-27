@@ -1,0 +1,7 @@
+com\enigma\service\Test.class
+Main.class
+com\enigma\service\StudentService.class
+com\enigma\config\HibernateConfigs.class
+com\enigma\model\Subject.class
+com\enigma\model\Room.class
+com\enigma\model\Student.class

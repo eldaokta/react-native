@@ -26,11 +26,10 @@ public class Main {
             String birthPlace = reader.readLine();
             System.out.print("Input Tanggal Lahir :");
 
-            String birthDate = reader.readLine();
-            DateFormat format = new SimpleDateFormat("yyyy-mm-dd");
-            Date datadate = format.parse(birthDate);
-
-            java.sql.Date tgl = new java.sql.Date(datadate.getTime());
+            Date birthDate = java.sql.Date.valueOf(reader.readLine());
+//            DateFormat format = new SimpleDateFormat("yyyy-mm-dd");
+//            Date datadate = format.parse(birthDate);
+//            java.sql.Date tgl = new java.sql.Date(datadate.getTime());
             System.out.print("Input Jenis Kelamin : ");
             String gender = reader.readLine();
 

@@ -1,23 +1,16 @@
 package com.enigma.model;
 
+import java.util.Date;
+
 //objectnya
 public class Student {
     private Integer id;
     private String name;
     private String birthPlace;
-    private String birthDate;
+    private Date birthDate;
     private String gender;
 
-    public Student(Integer id, String name, String birthPlace, String birthDate, String gender) {
-        this.id = id;
-        this.name = name;
-        this.birthPlace = birthPlace;
-        this.birthDate = birthDate;
-        this.gender = gender;
-    }
-
-    public Student(int id) {
-        return;
+    public Student() {
     }
 
     public Integer getId() {
@@ -44,11 +37,11 @@ public class Student {
         this.birthPlace = birthPlace;
     }
 
-    public String getBirthDate() {
+    public Date getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
 

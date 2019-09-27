@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9489ae08-8205-41ea-a752-a9a420bc5a25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 8/src/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/out/production/Exercise 8/META-INF/Exercise 8.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/out/production/Exercise 8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/out/production/Exercise 8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/out/production/Exercise 8/com/enigma/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/out/production/Exercise 8/com/enigma/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/out/production/Exercise 8/com/enigma/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/out/production/Exercise 8/com/enigma/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/service/StudentService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
