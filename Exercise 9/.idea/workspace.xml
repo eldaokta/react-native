@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Academy/Exercise 9" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -127,11 +127,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main3" />
       <item itemvalue="JUnit.StudentServiceTest.getAllStudent_should_returnAllStudent_when_IdFound" />
       <item itemvalue="JUnit.StudentServiceTest.updateStudent" />
       <item itemvalue="JUnit.StudentServiceTest" />
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main3" />
     </list>
     <recent_temporary>
       <list>
@@ -155,5 +155,16 @@
       <updated>1569297638007</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enigma/model/Student.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

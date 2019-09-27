@@ -17,6 +17,8 @@
 
         <mapping class="com.enigma.model.Student"></mapping>
         <mapping class="com.enigma.model.Subject"></mapping>
-        <mapping class="com.enigma.model.Room"></mapping>
+<!--        <mapping class="com.enigma.model.Room"></mapping>-->
+        <mapping class="com.enigma.model.StudentSubject"></mapping>
+
     </session-factory>
 </hibernate-configuration>

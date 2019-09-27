@@ -8,24 +8,29 @@ import java.util.List;
 public class StudentSubject {
 
     @Id
+    @Column(name = "id")
     private Integer Id;
 
-    @Column(name = "student_id")
-    private Integer StudentId;
 
-    @Column(name = "subject_id")
-    private Integer SubjectId;
+    //INI YG LAGI DIKERJAIN
+    @ManyToOne
+    @JoinColumn(name = "student_id")
+    Student student;
 
-    @ManyToMany(mappedBy = "student_subject")
-    List<Student> StudentSubject;
+    @ManyToOne
+    @JoinColumn(name = "subject_id")
+    Subject subject;
+
 
     public StudentSubject() {
     }
 
-    public StudentSubject(Integer id, Integer studentId, Integer subjectId) {
-        Id = id;
-        StudentId = studentId;
-        SubjectId = subjectId;
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
     public Integer getId() {
@@ -36,28 +41,21 @@ public class StudentSubject {
         Id = id;
     }
 
-    public Integer getStudentId() {
-        return StudentId;
+
+    public Subject getSubject() {
+        return subject;
     }
 
-    public void setStudentId(Integer studentId) {
-        StudentId = studentId;
-    }
-
-    public Integer getSubjectId() {
-        return SubjectId;
-    }
-
-    public void setSubjectId(Integer subjectId) {
-        SubjectId = subjectId;
+    public void setSubject(Subject subject) {
+        this.subject = subject;
     }
 
     @Override
     public String toString() {
         return "StudentSubject{" +
                 "Id=" + Id +
-                ", StudentId=" + StudentId +
-                ", SubjectId=" + SubjectId +
+                ", student=" + student +
+                ", subject=" + subject +
                 '}';
     }
 }

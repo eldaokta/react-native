@@ -24,7 +24,7 @@ public class Main {
         Student studentYgDidapat = session.get(Student.class, 1);
         studentYgDidapat.setName("Another Tony");
 
-        studentYgDidapat.setClassRoom(classYgDidapat);
+//        studentYgDidapat.setClassRoom(classYgDidapat);
 
         session.save(classYgDidapat);
 

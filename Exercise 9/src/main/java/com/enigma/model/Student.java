@@ -25,38 +25,35 @@ public class Student {
     @Column(name = "gender")
     private String gender;
 
-    @ManyToOne
-    @JoinColumn(name = "class_room_id")
-    Room classRoom;
+//    @OneToMany
+//    @JoinColumn(name = "class_room_id")
+//    Room classRoom;
 
     //INI YG LAGI DIKERJAIN
-    @ManyToMany
-    @JoinTable(
-            name = "student_subject",
-            joinColumns = @JoinColumn(name = "student_id"),
-            inverseJoinColumns = @JoinColumn(name = "subject_id"))
-    List <Subject> ssed;
-    
+    @OneToMany(mappedBy = "student") //nama atribut varibale yg ada di file sebelah yg di bawah
+    private List<StudentSubject> studentSubjects;
+
+
 
     public Student() {
     }
 
-    public Student(Integer id, String name, String birthPlace, Date birthDate, String gender, Room classRoom, List<Subject> ssed) {
+    public Student(Integer id, String name, String birthPlace, Date birthDate, String gender, Room classRoom, List<StudentSubject> studentSubjects) {
         this.id = id;
         this.name = name;
         this.birthPlace = birthPlace;
         this.birthDate = birthDate;
         this.gender = gender;
-        this.classRoom = classRoom;
-        this.ssed = ssed;
+//        this.classRoom = classRoom;
+        this.studentSubjects = studentSubjects;
     }
 
-    public List<Subject> getSsed() {
-        return ssed;
+    public List<StudentSubject> getStudentSubjects() {
+        return studentSubjects;
     }
 
-    public void setSsed(List<Subject> ssed) {
-        this.ssed = ssed;
+    public void setStudentSubjects(List<StudentSubject> studentSubjects) {
+        this.studentSubjects = studentSubjects;
     }
 
     public Integer getId() {
@@ -99,26 +96,13 @@ public class Student {
         this.gender = gender;
     }
 
-    public Room getClassRoom() {
-        return classRoom;
-    }
+//    public Room getClassRoom() {
+//        return classRoom;
+//    }
+//
+//    public void setClassRoom(Room classRoom) {
+//        this.classRoom = classRoom;
+//    }
 
-    public void setClassRoom(Room classRoom) {
-        this.classRoom = classRoom;
-    }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", birthPlace='" + birthPlace + '\'' +
-                ", birthDate=" + birthDate +
-                ", gender='" + gender + '\'' +
-                ", classRoom=" + classRoom.getId() + //tambah getTd karena manggil id nya bukan classroomnya
-                '}';
-    }
-
-    public void setSsed(Subject subjectYgDidapat) {
-    }
 }
