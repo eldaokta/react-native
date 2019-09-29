@@ -1,6 +1,6 @@
 package com.enigma.model;
 
-import java.util.Date;
+import java.sql.Date;
 
 //objectnya
 public class Student {
@@ -10,7 +10,16 @@ public class Student {
     private Date birthDate;
     private String gender;
 
-    public Student() {
+    public Student(Integer id, String name, String birthPlace, Date birthDate, String gender) {
+        this.id = id;
+        this.name = name;
+        this.birthPlace = birthPlace;
+        this.birthDate = birthDate;
+        this.gender = gender;
+    }
+
+    public Student(int id) {
+        return;
     }
 
     public Integer getId() {

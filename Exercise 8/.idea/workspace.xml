@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971ecc12-66e8-402f-9ed6-5d78e9e15748" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise 8/META-INF/Exercise 8.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise 8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise 8/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise 8/com/enigma/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise 8/com/enigma/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise 8/com/enigma/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise 8/com/enigma/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enigma/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enigma/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enigma/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enigma/service/StudentService.java" afterDir="false" />
-    </list>
+    <list default="true" id="971ecc12-66e8-402f-9ed6-5d78e9e15748" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +15,9 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectId" id="1REFdGK551Ev9xzklH5MTb1eM7R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Software/postgresql-42.2.8.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -50,14 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Exercise 8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
       <module name="Exercise 8" />
@@ -65,9 +42,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main3" />
+      <module name="Exercise 8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
@@ -84,16 +68,5 @@
       <updated>1569224433295</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
