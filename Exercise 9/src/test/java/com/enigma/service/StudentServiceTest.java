@@ -14,29 +14,19 @@ import static org.junit.Assert.*;
 
 public class StudentServiceTest {
 
-//    @Test
-//    public void getStudent_should_returnStudent_when_idFound() {
-//        SessionFactory sessionFactory = HibernateConfigs.getSessionFactory();
-//        Session session = sessionFactory.getCurrentSession();
-//
-//        session.beginTransaction();
-//        Student student = session.get(Student.class, 2);
-//        Integer id = 2;
-//        session.getTransaction().commit();
-//        assertEquals(student.toString(), StudentService.getStudent(id).toString());
-//    }
-//
-//    @Test
-//    public void getStudent_should_returnFalse_when_idFound() {
-//        SessionFactory sessionFactory = HibernateConfigs.getSessionFactory();
-//        Session session = sessionFactory.getCurrentSession();
-//
-//        session.beginTransaction();
-//        Student student = session.get(Student.class, 4);
-//        Integer id = 2;
-//        session.getTransaction().commit();
-//        assertNotSame(student.toString(), StudentService.getStudent(id).toString());
-//    }
+    @Test
+    public void getStudent_should_returnStudentName_when_IdIs1() {
+       String getName= "Another Tony";
+       Student getStudent = StudentService.getStudent(1);
+       assertEquals(getName, getStudent.getName());
+    }
+
+    @Test
+    public void getStudent_should_returnFalse_when_IdIs1() {
+        String getName = "Elda";
+        Student getStudent = StudentService.getStudent(1);
+        assertNotEquals(getName, getStudent.getName());
+    }
 
 //    @Test
 //    public void getAllStudent_should_returnAllStudent_when_IdFound() {
@@ -50,9 +40,9 @@ public class StudentServiceTest {
 //        assertEquals(students.toString(), StudentService.getStudents());
 //    }
 
-    @Test
-    public void getStudents() {
-    }
+//    @Test
+//    public void getStudents() {
+//    }
 
 //    @Test
 //    public void updateStudent() {
