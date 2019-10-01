@@ -80,8 +80,15 @@ public class Robot {
 
     public void run(){
         for (int i = 0; i < this.commands.length; i++){
+            if (fuel==0){
+                System.out.println("Baterry is null");
+                break;
+            }
             move(String.valueOf(this.commands[i]), this.directions);
             System.out.println(this.commands[i]+getPosition()+this.directions);
+            if ((i+1)%3==0){
+                fuel--;
+            }
         }
     }
 
