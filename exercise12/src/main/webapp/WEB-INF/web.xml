@@ -1,0 +1,33 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+<display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>com.enigma.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentById</servlet-name>
+    <servlet-class>com.enigma.StudentById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddStudent</servlet-name>
+    <servlet-class>com.enigma.AddStudent</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern></url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>StudentById</servlet-name>
+  <url-pattern>/detail.php</url-pattern>
+</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudent</servlet-name>
+    <url-pattern>/addstudent.php</url-pattern>
+  </servlet-mapping>
+
+</web-app>

@@ -1,5 +1,10 @@
-com\enigma\model\Robot.class
+Main.class
 com\enigma\model\Directions.class
 com\enigma\ApaKabar.class
 com\enigma\Hello.class
+com\enigma\config\HibernateConfigs.class
 com\enigma\RobotServlet.class
+thread.class
+com\enigma\StudentServlet.class
+com\enigma\model\Robot.class
+com\enigma\model\Student.class

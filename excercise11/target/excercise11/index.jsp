@@ -1,7 +1,7 @@
 <%@ page contentType ="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Exercise 10</title>
+    <title>Exercise 11</title>
 </head>
 <body>
     <h2>Robot Servlet</h2>
@@ -18,5 +18,7 @@
         <br/><br/>
         <input type="submit"/>
     </form>
+    <a href="hello.php?name=Elda">Hello</a>
+    <a href="student.php">List Student</a>
 </body>
 </html>
