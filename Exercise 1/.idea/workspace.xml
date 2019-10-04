@@ -14,11 +14,59 @@
       <change afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/enigama/belajarjava/basic/cobaMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/SolidPrinciples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/out/production/SolidPrinciples/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/out/production/SolidPrinciples/com/enigma/model/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/CircleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/ShapeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise13/src/main/java/com/enigma/controller/RoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise13/src/main/java/com/enigma/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise13/src/main/java/com/enigma/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise13/src/main/webapp/view/room.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise13/src/main/webapp/view/student-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/simplespring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/java/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/java/com/enigma/constanta/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/java/com/enigma/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/java/com/enigma/model/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/java/com/enigma/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/java/com/enigma/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplespring/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/src/main/java/com/enigma/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/src/main/java/com/enigma/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/src/main/webapp/view/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/src/main/webapp/view/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/classes/com/enigma/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/classes/com/enigma/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/WEB-INF/classes/com/enigma/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/WEB-INF/classes/com/enigma/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/view/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/exercise13-1.0-SNAPSHOT/view/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +88,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="E:/Tugas Pak Angga" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -102,8 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568122845328</updated>
+      <workItem from="1570201728119" duration="16000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -12,6 +12,7 @@
 </head>
 <body>
     <h1>Ini Index</h1>
-    <a href="student">To Student</a>
+    <a href="student">Ke student</a>
+    <a href="room">Ke Room</a>
 </body>
 </html>

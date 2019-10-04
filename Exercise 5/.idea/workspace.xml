@@ -2,32 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9489ae08-8205-41ea-a752-a9a420bc5a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../excercise11/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/src/main/java/com/enigma/ApaKabar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/src/main/java/com/enigma/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/src/main/java/com/enigma/model/RobotServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/src/main/webapp/hasil/hasilnya.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/classes/com/enigma/ApaKabar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/classes/com/enigma/Hello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/excercise11.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/excercise11/WEB-INF/classes/com/enigma/ApaKabar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/excercise11/WEB-INF/classes/com/enigma/Hello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/excercise11/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/excercise11/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/excercise11/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excercise11/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simplewebapp/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simplewebapp/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simplewebapp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simplewebapp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simplewebapp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simplewebapp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/SolidPrinciples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/out/production/SolidPrinciples/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/out/production/SolidPrinciples/com/enigma/model/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/ShapeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +42,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise 6" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,8 +74,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568733358152</updated>
+      <workItem from="1570088266901" duration="1215000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

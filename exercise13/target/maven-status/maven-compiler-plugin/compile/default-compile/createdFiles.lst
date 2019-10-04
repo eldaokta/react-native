@@ -1,1 +1,4 @@
 com\enigma\controller\StudentController.class
+com\enigma\service\StudentService.class
+com\enigma\controller\RoomController.class
+com\enigma\model\Student.class

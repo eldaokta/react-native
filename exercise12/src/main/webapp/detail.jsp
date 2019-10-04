@@ -25,8 +25,7 @@
             <p class="card-text"><%= student.getBirthDate()%></p>
             <p class="card-text"><%= student.getGender()%></p>
 
-        </div>
-    </div>
+        </div>    </div>
 </div>
 </body>
 </html>
