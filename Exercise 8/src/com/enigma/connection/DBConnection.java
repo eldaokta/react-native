@@ -18,6 +18,7 @@ public class DBConnection {
 
     }
     public static Connection getConnection(){
+
         return connection==null?letsCreateConnection():connection;
     }
 }

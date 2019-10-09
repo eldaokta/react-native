@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9489ae08-8205-41ea-a752-a9a420bc5a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/SolidPrinciples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/out/production/SolidPrinciples/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/out/production/SolidPrinciples/com/enigma/model/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/ShapeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SolidPrinciples/src/com/enigma/model/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/Exercise14Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/resources/static.student/student-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/resources/static.student/student-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/resources/student/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/test/java/com/enigma/exercise14/Exercise14ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplewebapp/simplewebapp.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568733358152</updated>
       <workItem from="1570088266901" duration="1215000" />
+      <workItem from="1570351040179" duration="812000" />
     </task>
     <servers />
   </component>

@@ -16,7 +16,7 @@ public class Main {
         System.out.print("Masukkan jumlah student baru : ");
         Integer jmlStudent = Integer.parseInt(reader.readLine());
 
-
+        //input student and get all student
         for (int i = 0; i <jmlStudent ; i++) {
             System.out.print("Input Id :");
             Integer id = Integer.parseInt(reader.readLine());

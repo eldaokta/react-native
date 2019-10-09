@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc34b4dd-5694-4259-890c-3164c5873bfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercise 9/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 9/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../excercise11/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../excercise11/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/Exercise14Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/controller/ArtistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/controller/SongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/entity/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/entity/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/repositories/ArtistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/repositories/SongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/repositories/StudentReporsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/artist-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/artist-view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/song/song-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/song/song-view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/student-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/student-view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise14/src/test/java/com/enigma/exercise14/Exercise14ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/StoreManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/controllers/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/entities/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/repositories/StoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/test/java/com/enigma/StoreManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/connection/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/connection/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplewebapp/simplewebapp.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +64,15 @@
   <component name="ProjectId" id="1RaKmLjtGABICVdd4rHVNJHp7Xo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise 9" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,15 +96,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569899924574</updated>
+      <workItem from="1570243761753" duration="18000" />
+      <workItem from="1570243786858" duration="605000" />
+      <workItem from="1570552823012" duration="2000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
