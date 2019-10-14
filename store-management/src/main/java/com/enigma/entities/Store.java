@@ -1,6 +1,9 @@
 package com.enigma.entities;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 @Entity
 @Table(name = "mst_store")
@@ -16,8 +19,11 @@ public class Store {
     private String description;
     private String phoneNumber;
 
-    public Store(Integer id, String storeName, String adress, String description, String phoneNumber) {
-        this.id = id;
+    @OneToMany(mappedBy = "store", cascade = CascadeType.PERSIST)
+    List<Product> products = new ArrayList<>();
+
+
+    public Store( String storeName, String adress, String description, String phoneNumber) {
         this.storeName = storeName;
         this.adress = adress;
         this.description = description;
@@ -65,5 +71,30 @@ public class Store {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Store store = (Store) o;
+        return Objects.equals(id, store.id) &&
+                Objects.equals(storeName, store.storeName) &&
+                Objects.equals(adress, store.adress) &&
+                Objects.equals(description, store.description) &&
+                Objects.equals(phoneNumber, store.phoneNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, storeName, adress, description, phoneNumber);
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }

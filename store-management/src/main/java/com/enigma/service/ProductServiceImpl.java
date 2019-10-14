@@ -1,8 +1,12 @@
 package com.enigma.service;
 
 import com.enigma.entities.Product;
+import com.enigma.entities.Store;
+import com.enigma.exception.InsufficientQuantityException;
 import com.enigma.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
@@ -14,9 +18,13 @@ public class ProductServiceImpl implements ProductService{
     @Autowired
     ProductRepository productRepository;
 
+    @Autowired
+    StoreService storeService;
+
+
     @Override
-    public void save(Product product) {
-        productRepository.save(product);
+    public Product save(Product product) {
+        return productRepository.save(product);
     }
 
     @Override
@@ -29,14 +37,18 @@ public class ProductServiceImpl implements ProductService{
 
 
     @Override
-    public List<Product> getAll() {
-        return productRepository.findAll();
+    public Page<Product> getAll(Pageable pageable) {
+        Page <Product> products = productRepository.findAll((org.springframework.data.domain.Pageable) pageable);
+        return products;
     }
 
     //
     @Override
     public void deduct(String idProduct, Integer quantity) {
         Product product = getProduct(idProduct);
+        if (product.getQuantity()<quantity){
+            throw new InsufficientQuantityException();
+        }
         product.deductQuantity(quantity);
         save(product);
     }
@@ -45,6 +57,25 @@ public class ProductServiceImpl implements ProductService{
     public BigDecimal getProductPriceById(String idProduct) {
         return getProduct(idProduct).getPrice();
     }
+
+    @Override
+    public List<Product> getAllProduct(String keyword){
+        return productRepository.findAllByNameContains(keyword);
+    }
+
+    @Override
+    public List<Product> getProductsByStoreId(Integer id) {
+        Store store = storeService.getStore(id);
+        return store.getProducts();
+    }
+
+    @Override
+    public Product save(Integer id, Product product){
+        Store store = storeService.getStore(id);
+        product.setStore(store);
+        return productRepository.save(product);
+    }
+
 
 
 }

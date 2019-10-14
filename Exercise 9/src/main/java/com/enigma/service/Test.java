@@ -1,4 +1,4 @@
 package com.enigma.service;
 
-public @interface Test {
+public interface Test {
 }

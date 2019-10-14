@@ -2,56 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a459b171-d559-412c-a6fb-54802950bd03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercise14/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/Exercise14Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/controller/ArtistController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/controller/SongController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/entity/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/entity/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/repositories/ArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/repositories/SongRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/com/enigma/repositories/StudentReporsitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/artist-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/artist-view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/song/song-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/song/song-view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/student-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/main/webapp/WEB-INF/views/student-view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise14/src/test/java/com/enigma/exercise14/Exercise14ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/StoreManagementApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/controllers/StoreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/entities/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/repositories/StoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../store-management/src/test/java/com/enigma/StoreManagementApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/connection/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 8/src/com/enigma/connection/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/controllers/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/entities/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/exception/InsufficientQuantityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/repositories/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/test/java/com/enigma/controllers/StoreControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/test/java/com/enigma/service/ProductServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store-management/src/test/java/com/enigma/service/StoreServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/service/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/service/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simplewebapp/simplewebapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/controllers/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/controllers/StoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/entities/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/entities/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/java/com/enigma/service/StoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../store-management/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +61,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../excercise11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -222,6 +197,7 @@
       <workItem from="1570243748433" duration="635000" />
       <workItem from="1570337651378" duration="5169000" />
       <workItem from="1570552863704" duration="521000" />
+      <workItem from="1570983965783" duration="166000" />
     </task>
     <servers />
   </component>

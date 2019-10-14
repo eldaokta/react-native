@@ -15,6 +15,7 @@ public class Purchased {
     @GenericGenerator(name = "system-uuid", strategy = "uuid")
     private String idPurchased;
     private String idProduct;
+    private String idMember;
     private Integer quantity;
     private BigDecimal totalPrice;
 
