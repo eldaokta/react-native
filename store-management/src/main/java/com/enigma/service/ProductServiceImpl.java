@@ -3,6 +3,7 @@ package com.enigma.service;
 import com.enigma.entities.Product;
 import com.enigma.entities.Store;
 import com.enigma.exception.InsufficientQuantityException;
+import com.enigma.exception.NotFoundException;
 import com.enigma.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -23,6 +24,9 @@ public class ProductServiceImpl implements ProductService{
 
     @Override
     public Product save(Product product) {
+        if (product == null){
+            throw new NotFoundException();
+        }
         return productRepository.save(product);
     }
 
@@ -41,7 +45,7 @@ public class ProductServiceImpl implements ProductService{
         return products;
     }
 
-    //
+    //untuk mengurangi
     @Override
     public void deduct(String idProduct, Integer quantity) {
         Product product = getProduct(idProduct);

@@ -24,7 +24,7 @@ public class ProductController {
    //select *
     @GetMapping("/products")
     public Page<Product> getAllProducts(@RequestParam Integer size, @RequestParam Integer page){
-        PageRequest pageable = PageRequest.of(page, size);
+        PageRequest pageable = PageRequest.of(size, page);
         return productService.getAll(pageable);
 
     }
