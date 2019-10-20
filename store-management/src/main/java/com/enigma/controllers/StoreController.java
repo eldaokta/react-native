@@ -19,7 +19,7 @@ public class StoreController {
 
         return storeService.getStore(id);
     }
-
+    @CrossOrigin
     @GetMapping("/store")
     public List<Store> stores(Store store){
         return storeService.getList(store);
