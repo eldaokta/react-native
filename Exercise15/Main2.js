@@ -14,9 +14,9 @@ function hallo(nama) {
 function tebak(nama, sebuahFunction) {
     sebuahFunction(nama);
 }
-// function apaja(){
-//     console.log(2+6);
-// }
+function apaja(){
+    console.log(2+6);
+}
 //liat struktur function tebak diatas
 tebak("Elda", hallo);
 
@@ -44,7 +44,7 @@ function printAll() {
         greet2("Fira", ()=>{
             greet3("Susi", ()=>{})})})
 }
-// printAll()
+printAll()
 
 function factorial(n) {
     if(n-1==0) return 1
@@ -82,7 +82,7 @@ function printAllPromise() {
         .then(()=>{greet2("Susi").then(()=>{greet3("Fira")})})
 
 }
-// printAllPromise()
+printAllPromise()
 
 //ASYNC WAIT
 
