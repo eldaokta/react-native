@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
+
 
 class StudentForm extends React.Component {
     constructor(props){
@@ -20,7 +22,8 @@ class StudentForm extends React.Component {
                     <input type="text" onChange={this.handleAge} value={this.state.age}/>
                 </form>
                 <br/>
-                <button type="submit" onClick={this.handleSubmit}>Submit</button>
+                <Button variant="contained" type="submit" onClick={this.handleSubmit}>Submit</Button>
+
             </div>
         );
     }
