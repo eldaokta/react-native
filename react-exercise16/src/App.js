@@ -7,6 +7,7 @@ import Card from "./Card";
 
 class App extends React.Component{
     constructor(props){
+        console.log("constructor dibaca")
         super(props)
         this.state= {
             persons: []

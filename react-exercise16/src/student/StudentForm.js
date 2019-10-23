@@ -15,9 +15,11 @@ class StudentForm extends React.Component {
                 <form>
                     <label>Name : </label>
                     <input type="text" onChange={this.handleName} value={this.state.name} />
+                    <br/><br/>
                     <label>Age : </label>
                     <input type="text" onChange={this.handleAge} value={this.state.age}/>
                 </form>
+                <br/>
                 <button type="submit" onClick={this.handleSubmit}>Submit</button>
             </div>
         );
