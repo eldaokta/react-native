@@ -1,20 +1,22 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './Product.css';
-import { Table, Container} from 'react-bootstrap';
+import{Link} from 'react-router-dom';
 
 
 
-class ProductForm extends React.Component{
+class ProductList extends React.Component{
     render() {
         console.log("render product list terjadi");
         let items = [];
         for (let i=0; i<this.props.action.length; i++){
             items.push(
                 <tr>
+                    <td>{this.props.action[i].id}</td>
                     <td>{this.props.action[i].name}</td>
                     <td>{this.props.action[i].quantity}</td>
                     <td>{this.props.action[i].price}</td>
+                    <td><Link to={"/product-detail/"+this.props.action[i].id}>Detail</Link> </td>
+
 
                 </tr>
             )
@@ -25,6 +27,7 @@ class ProductForm extends React.Component{
                 <table>
                     <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Name Product</th>
                         <th>Quantity</th>
                         <th>Price</th>
@@ -42,4 +45,4 @@ class ProductForm extends React.Component{
 
 }
 
-export default ProductForm;
+export default ProductList;

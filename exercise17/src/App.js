@@ -4,6 +4,8 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 import ProductList from "./product/ProductList";
 import ProductForm from "./product/ProductForm";
+import Card from "./Card";
+import ProductDetail from "./product/ProductDetail";
 
 
 class App extends React.Component{
@@ -14,8 +16,8 @@ class App extends React.Component{
             products: []
         }
     }
-    tangkapData = (name, quantity, price) => {
-        const data ={name, quantity, price}
+    tangkapData = (id, name, quantity, price) => {
+        const data ={id, name, quantity, price}
         console.log(data, "Data Tertangkap")
         const products = this.state.products
         products.push(data)
@@ -32,12 +34,12 @@ class App extends React.Component{
                         <Link to="/product-list">Product List</Link>
                         <Link to="/product-form">Product Form</Link>
                     </div>
-                    <div className="clear">
 
-                    </div>
                     <Switch>
                         <Route path="/product-list"><ProductList action = {this.state.products}/></Route>
                         <Route path="/product-form"> <ProductForm tangkapData = {this.tangkapData}/></Route>
+                        <Route path="/product-detail/:id" render={(props)=><ProductDetail {...props} get={this.state.products}/>}></Route>
+
                     </Switch>
                 </div>
             </Router>

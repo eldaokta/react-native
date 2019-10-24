@@ -8,12 +8,14 @@ import { Form, FormControl, Container, Button, Card} from 'react-bootstrap';
 class ProductForm extends React.Component{
     handleSubmit=(event)=>{
         event.preventDefault();
+        const id = event.target.id.value;
         const name = event.target.name.value;
         const quantity = event.target.quantity.value;
         const price = event.target.price.value;
 
-        this.props.tangkapData(name, quantity, price)
+        this.props.tangkapData(id, name, quantity, price)
 
+        event.target.id.value = ""
         event.target.name.value = ""
         event.target.quantity.value = ""
         event.target.price.value = ""
@@ -24,6 +26,9 @@ class ProductForm extends React.Component{
                     <h1>PRODUCT FORM</h1>
                                 <form onSubmit={this.handleSubmit}>
                                     <label>
+                                        Id
+                                        <br/>
+                                        <input type="text" name="id" />
                                         Name Product
                                         <br/>
                                         <input type="text" name="name" />
