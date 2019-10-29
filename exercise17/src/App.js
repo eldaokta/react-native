@@ -24,6 +24,10 @@ class App extends React.Component{
         this.setState({products})
     }
     render() {
+        let product=[];
+        for (let i=0; i<this.state.products.length;i++){
+            product.push({products:this.state.products[i]})
+        }
         return (
             <Router>
                 <div className="App">
@@ -36,7 +40,7 @@ class App extends React.Component{
                     </div>
 
                     <Switch>
-                        <Route path="/product-list"><ProductList action = {this.state.products}/></Route>
+                        <Route path="/product-list"><ProductList action = {product}/></Route>
                         <Route path="/product-form"> <ProductForm tangkapData = {this.tangkapData}/></Route>
                         <Route path="/product-detail/:id" render={(props)=><ProductDetail {...props} get={this.state.products}/>}></Route>
 

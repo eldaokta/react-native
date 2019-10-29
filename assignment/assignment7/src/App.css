@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+}
+
+.App-header {
+  overflow: hidden;
+  background-color: #282c34;
+  padding: 20px 10px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.sidenav {
+  float:left;
+  background:#6F9;
+  padding:2%;
+  height: 1000px;
+  width: 250px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}

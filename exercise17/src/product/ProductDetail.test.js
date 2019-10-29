@@ -11,6 +11,9 @@ describe('ProductDetail', ()=> {
         it('should have one label as a child to form', () =>{
             expect(appContainer.find('form').children('label')).toHaveLength(1)
         });
+        it('should have one br as a child of label', ()=> {
+            expect(appContainer.find('label').children('br')).toHaveLength(1)
+        });
         it('should have four input as a child of form', ()=> {
             expect(appContainer.find('form').children('input')).toHaveLength(4)
         });

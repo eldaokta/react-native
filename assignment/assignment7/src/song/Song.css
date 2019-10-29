@@ -1,0 +1,22 @@
+
+.formSong{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+.textField{
+    left: 350px;
+}
+.btn{
+    top: 30px;
+}
+.card{
+    max-width: 25%;
+    margin: 20px;
+    display: inline-block;
+}
+.cardContainer{
+    top: 300px;
+}
