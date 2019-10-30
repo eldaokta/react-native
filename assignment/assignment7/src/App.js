@@ -15,6 +15,7 @@ class App extends React.Component{
             <Router>
                 <div className="App">
                     <header className="App-header">
+                        <h1>MUSIC APP</h1>
                         {/*<img src={require('./image/enigmacamp.png')} className="App-logo" alt="logo" />*/}
                     </header>
                     <div className="sidenav">
@@ -23,8 +24,7 @@ class App extends React.Component{
 
                     </div>
                     <Switch>
-                        <ArtistContainer/>
-                        <Route path="/artist-container"> <ArtistContainer/></Route>
+                        <Route path="/artist-container"><ArtistContainer/> </Route>
                         <Route path="/artist-form"><ArtistForm/></Route>
 
                     </Switch>

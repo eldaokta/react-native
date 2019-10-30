@@ -1,12 +1,11 @@
 {
-  "name": "assignment7",
+  "name": "exercise19",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.5.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-router-dom": "^5.1.2",
+    "react-redux": "^7.1.1",
     "react-scripts": "3.2.0",
     "redux": "^4.0.4"
   },
@@ -14,8 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "webpack --watch --mode=development"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,17 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "babel-loader": "^8.0.6",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

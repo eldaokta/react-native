@@ -18,6 +18,7 @@ class ArtistForm extends React.Component {
                     <button className="btn" type={"submit"}>Submit</button>
                 </form>
             </div>
+
         );
     }
 }

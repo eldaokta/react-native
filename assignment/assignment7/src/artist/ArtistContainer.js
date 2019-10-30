@@ -51,9 +51,12 @@ class ArtistContainer extends React.Component {
                 <ArtistForm submit={this.hendleSubmit} hendlename={this.hendleInputName} bornplace={this.hendleInputBornPlace} hendledebut={this.hendleInputdebut}/>
                 {artist}
                 <div className={'pagination'}>
-                    <span onClick={() => this.fecthArtists(0)}>&laquo;</span>
-                    {pageNumbers}
-                    <span onClick={() => this.fecthArtists(0)}>&raquo;</span>
+                    <div className="page">
+                        <span onClick={() => this.fecthArtists(0)}>&laquo;</span>
+                        {pageNumbers}
+                        <span onClick={() => this.fecthArtists(0)}>&raquo;</span>
+                    </div>
+
                 </div>
             </div>
 

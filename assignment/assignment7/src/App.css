@@ -5,37 +5,31 @@
 .App-logo {
   height: 15vmin;
 }
-
+h1{
+  color: #ac3b61;
+}
 .App-header {
-  overflow: hidden;
-  background-color: #282c34;
-  padding: 20px 10px;
+  padding: 30px;
+  text-align: center;
+  background: #eee2dc;
 }
 
-.App-link {
-  color: #09d3ac;
-}
 .sidenav {
-  float:left;
-  background:#6F9;
-  padding:2%;
-  height: 1000px;
-  width: 250px;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+  overflow: hidden;
+  background-color: #edc7b7;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: black;
+  float: left;
   display: block;
+  color: #ac3b61;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  background-color: #ac3b61;
+  color: white;
 }
+
