@@ -1,14 +1,13 @@
 package com.enigma.enitity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -23,13 +22,18 @@ public class Artist {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date debutDate;
 
+    @JsonIgnore
+    @OneToMany(mappedBy = "idArtist", cascade = CascadeType.PERSIST)
+    private List<Song> songs;
+
     public Artist() {
     }
 
-    public Artist(String name, String bornPlace, Date debutDate) {
+    public Artist(String name, String bornPlace, Date debutDate, List<Song> songs) {
         this.name = name;
         this.bornPlace = bornPlace;
         this.debutDate = debutDate;
+        this.songs = songs;
     }
 
     public String getIdArtist() {
@@ -62,6 +66,14 @@ public class Artist {
 
     public void setDebutDate(Date debutDate) {
         this.debutDate = debutDate;
+    }
+
+    public List<Song> getSongs() {
+        return songs;
+    }
+
+    public void setSongs(List<Song> songs) {
+        this.songs = songs;
     }
 
     @Override

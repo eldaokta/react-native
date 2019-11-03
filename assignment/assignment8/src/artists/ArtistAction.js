@@ -1,0 +1,2 @@
+export const FETCH_PRODUCT_SUCCESS   = 'ADD_PRODUCT';
+
