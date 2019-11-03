@@ -19,7 +19,7 @@ class ArtistContainer extends React.Component {
                 per_page: null,
                 current_page: 0
             },
-            artistForm: {name: "", bornPlace: "", debut: ""}
+            artistForm: {name: "", bornPlace: "", debutDate: ""}
         }
     }
 
@@ -92,7 +92,7 @@ class ArtistContainer extends React.Component {
     }
     hendleInputdebut=(event)=>{
         let artist = {...this.state.artistForm}
-        artist.debut = event.target.value;
+        artist.debutDate = event.target.value;
         this.setState({artistForm:{...artist}})
     }
     hendleSubmit=(event)=>{

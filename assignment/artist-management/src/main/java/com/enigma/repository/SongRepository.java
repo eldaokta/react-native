@@ -1,6 +1,6 @@
-package com.enigma.repositories;
+package com.enigma.repository;
 
-import com.enigma.entities.Song;
+import com.enigma.entity.Song;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

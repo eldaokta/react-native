@@ -2,41 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29a25f17-fb6a-4b05-b188-dcbb49213c5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../exercise19/src/counter/CounterCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise19/src/reducer/CounterReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/.idea/exercise20.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/form/Form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/form/FormAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/form/FormCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/form/FormContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/reducer/FormReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercise20/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercise19/src/counter/CounterAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise19/src/counter/CounterAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercise19/src/counter/CounterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise19/src/counter/CounterContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercise19/src/counter/reducer/CounterReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercise19/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise19/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learn-reduct/tugas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../learn-reduct/tugas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/ArtistManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/controller/ArtistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/entity/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/entity/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/repository/ArtistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/service/ArtistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/service/ArtistServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/service/SongService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/test/java/com/enigma/ArtistManagementApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/test/java/com/enigma/controller/ArtistControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/test/java/com/enigma/controller/SongControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/test/java/com/enigma/service/ArtistServiceImplementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../artist-management/src/test/java/com/enigma/service/SongServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise20/src/artists/ArtistAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise20/src/artists/ArtistCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise20/src/artists/ArtistContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise20/src/artists/ArtistList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise20/src/artists/ArtistService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise20/src/artists/reducer/ArtistReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../artist-management/src/main/java/com/enigma/controller/SongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/controller/SongController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../artist-management/src/main/java/com/enigma/entities/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../artist-management/src/main/java/com/enigma/repositories/SongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/repository/SongRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../artist-management/src/main/java/com/enigma/service/SongService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../artist-management/src/main/java/com/enigma/service/SongServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../artist-management/src/main/java/com/enigma/service/SongServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise20/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise20/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise20/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise20/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise20/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise20/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../artist-management" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,6 +104,8 @@
       <workItem from="1571630992592" duration="2902000" />
       <workItem from="1571998516574" duration="2000" />
       <workItem from="1572543176373" duration="3000" />
+      <workItem from="1572677005242" duration="611000" />
+      <workItem from="1572677977409" duration="2436000" />
     </task>
     <servers />
   </component>

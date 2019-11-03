@@ -20,6 +20,7 @@ public class MemberController {
         return memberService.save(member);
     }
 
+    @CrossOrigin
     @GetMapping("/members")
     public List<Member> getAllMember(){
         return memberService.getAll();

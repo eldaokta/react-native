@@ -1,8 +1,9 @@
-package com.enigma.entities;
+package com.enigma.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.GenericGenerator;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -10,19 +11,19 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name = "mst_artist")
-public class Artist<Song> {
+@Table(name = "artist")
+public class Artist {
     @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "uuid")
-    private String idArtist;
+    private String id;
     private String name;
     private  String bornPlace;
     @JsonFormat(pattern = "yyyy-MM-dd")
-    private Date debutDate;
+    private Date debut;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "artist", cascade = CascadeType.PERSIST)
+    @OneToMany(mappedBy = "artistId", cascade = CascadeType.PERSIST)
     private List<Song> songs;
 
     public Artist(String name, String bornPlace) {
@@ -33,12 +34,12 @@ public class Artist<Song> {
     public Artist() {
     }
 
-    public String getIdArtist() {
-        return idArtist;
+    public String getId() {
+        return id;
     }
 
-    public void setIdArtist(String idArtist) {
-        this.idArtist = idArtist;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -57,12 +58,12 @@ public class Artist<Song> {
         this.bornPlace = bornPlace;
     }
 
-    public Date getDebutDate() {
-        return debutDate;
+    public Date getDebut() {
+        return debut;
     }
 
-    public void setDebutDate(Date debutDate) {
-        this.debutDate = debutDate;
+    public void setDebut(Date debut) {
+        this.debut = debut;
     }
 
     @Override
@@ -70,13 +71,13 @@ public class Artist<Song> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Artist artist = (Artist) o;
-        return Objects.equals(idArtist, artist.idArtist) &&
+        return Objects.equals(id, artist.id) &&
                 Objects.equals(name, artist.name) &&
                 Objects.equals(bornPlace, artist.bornPlace);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(idArtist, name, bornPlace, debutDate, songs);
+        return Objects.hash(id, name, bornPlace, debut, songs);
     }
 }

@@ -12,7 +12,7 @@ class ArtistCard extends React.Component {
                         <div className="container">
                             <p>{this.props.artist.name}</p>
                             <p>{this.props.artist.bornPlace}</p>
-                            <p>{this.props.artist.debut}</p>
+                            <p>{this.props.artist.debutDate}</p>
                         </div>
                     </div>
         );

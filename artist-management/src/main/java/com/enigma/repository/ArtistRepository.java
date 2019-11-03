@@ -1,6 +1,6 @@
-package com.enigma.repositories;
+package com.enigma.repository;
 
-import com.enigma.entities.Artist;
+import com.enigma.enitity.Artist;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
