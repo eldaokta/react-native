@@ -9,8 +9,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.List;
-
 @Service
 public class ArtistServiceImpl implements ArtistService{
     @Autowired
@@ -45,11 +43,4 @@ public class ArtistServiceImpl implements ArtistService{
     public Artist saveArtist(MultipartFile picture, Artist artist) {
         return artistRepository.save(artist);
     }
-
-    @Override
-    public List<Artist> getAll() {
-        return artistRepository.findAll();
-    }
-
-
 }

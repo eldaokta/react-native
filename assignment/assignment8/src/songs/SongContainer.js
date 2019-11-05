@@ -10,21 +10,12 @@ class SongContainer extends React.Component{
 
         return(
             <div>
-                <SongList/>
+                <h1>HELLOW</h1>
             </div>
 
         )
     }
-    componentDidMount() {
-        this.fetchSongs();
-    }
 
-    fetchSongs = async ()=>{
-        const data = await fetchData();
-        if(!(data === undefined)){
-            this.props.dispatch({type:"FETCH_SONGS_SUCCESS", payload:data})
-        }
-    }
 }
 
 const mapStateToProps=(state)=>{

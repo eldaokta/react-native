@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {createStore} from "redux";
 import './index.css';
-import Provider from "react-redux/es/components/Provider";
 import * as serviceWorker from './serviceWorker';
-import songReducer from "./songs/reducer/SongReducer";
-import SongContainer from "./songs/SongContainer";
+import App from "./App";
 
-ReactDOM.render(<Provider store={createStore(songReducer)}>
-    <SongContainer />
-</Provider>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

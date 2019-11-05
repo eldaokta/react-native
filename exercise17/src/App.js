@@ -43,7 +43,6 @@ class App extends React.Component{
                         <Route path="/product-list"><ProductList action = {product}/></Route>
                         <Route path="/product-form"> <ProductForm tangkapData = {this.tangkapData}/></Route>
                         <Route path="/product-detail/:id" render={(props)=><ProductDetail {...props} get={this.state.products}/>}></Route>
-
                     </Switch>
                 </div>
             </Router>

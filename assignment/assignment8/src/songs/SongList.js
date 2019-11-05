@@ -13,14 +13,12 @@ class SongList extends React.Component{
                     <thead>
                     <tr>
                         <th>Title Song</th>
-                        <th>Id Artist</th>
                     </tr>
                     </thead>
                     {this.props.songs.map((element, index)=>{
                         return(
                             <tbody>
                             <td>{element.titleSong}</td>
-                            <td>{element.idArtist.name}</td>
                             </tbody>
                         )
                     })}

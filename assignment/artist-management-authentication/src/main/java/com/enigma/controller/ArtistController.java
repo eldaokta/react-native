@@ -14,7 +14,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
 
 @RestController
 public class ArtistController {
@@ -34,12 +33,6 @@ public class ArtistController {
     }
 
     @CrossOrigin
-    @GetMapping("/get-artists")
-    public List<Artist> getAllArtists(){
-        return artistService.getAll();
-    }
-
-    @CrossOrigin
     @PostMapping("/save-artist")
     public Artist InputDataArtist(@RequestPart MultipartFile picture, @RequestPart String artist) throws IOException{
         Artist artist1 = artistService.inputArtist(objectMapper.readValue(artist, Artist.class));
@@ -53,7 +46,6 @@ public class ArtistController {
         return artist1;
     }
 
-    @CrossOrigin
     @PostMapping("/save")
     public Artist saveArtist(@RequestBody Artist artist){
         return artistService.inputArtist(artist);
